@@ -313,7 +313,7 @@
 #X restore 30 50 pd farey;
 #X obj 30 73 list 0 0;
 #X obj 112 73 list 0;
-#X obj 30 26 hradio 19 1 0 2 empty empty <\ > 5 9 0 16 #000000 #000000 #ffffff 0;
+#X obj 30 26 hradio 19 1 0 2 empty fareyselin <\ > 5 9 0 16 #000000 #000000 #ffffff 0;
 #X obj 112 26 hradio 19 1 0 2 empty empty <\ > 5 9 0 16 #000000 #000000 #ffffff 0;
 #N canvas 508 401 325 308 coprime-triples 0;
 #X obj 14 276 outlet;
@@ -344,7 +344,7 @@
 #X restore 112 50 pd coprime-triples;
 #N canvas 701 81 178 120 presets 0;
 #X obj 11 10 loadbang;
-#X msg 11 32 \; ___ar1 color 900 \; ar2___ color 320 \; speedinit 1 \;;
+#X msg 11 32 \; ___ar1 color 900 \; ar2___ color 320 \; speedinit 1 \; fareyselin 1 \;;
 #X connect 0 0 1 0;
 #X restore 343 354 pd presets;
 #X text 709 497 Martin Heinze;
