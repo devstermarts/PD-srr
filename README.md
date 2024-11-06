@@ -1,4 +1,4 @@
-# PD-ssr
+# PD-srr
  PD implementation of 'Sinusoidal Run Rhythm' by Steffen Krebber
 
  ## Sinusoidal Run Rhythm
@@ -7,10 +7,10 @@
  Source: [Steffen Krebber, 2024](https://steffenkrebber.de/)
 
  ## Implementation for Pure Data
- PD-SSR is a PD implementation of Krebber's concept of 'Sinusoidal Run Rhythm' as described in his research project and book of the [same name](https://steffenkrebber.de/research/sinusoidal-run-rhythm/).
+ PD-SRR is a PD implementation of Krebber's concept of 'Sinusoidal Run Rhythm' as described in his research project and book of the [same name](https://steffenkrebber.de/research/sinusoidal-run-rhythm/).
 
  ## Patch view
-![Patch view](./assets/pd-ssr.png)
+![Patch view](./assets/pd-srr.png)
 
 
  ## Observations, open issues and questions:
@@ -18,4 +18,4 @@
  * Todo: ssrmod.pd component use case
 
  ## Other
- A modular component version of this implementation ("ssrmod.pd") can be found in the [PD-components](https://github.com/devstermarts/PD-components/blob/main/various/ssrmod.pd) repository.
+ A modular component version of this implementation ("srrmod.pd") can be found in the [PD-components](https://github.com/devstermarts/PD-components/blob/main/various/srrmod.pd) repository.
