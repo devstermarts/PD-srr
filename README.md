@@ -15,7 +15,7 @@
 
  ## Observations, open issues and questions:
  * Todo: check lists of coprime tuples and triples for validity
- * Todo: ssrmod.pd component use case
+ * Todo: srrmod.pd component use case
 
  ## Other
  A modular component version of this implementation ("srrmod.pd") can be found in the [PD-components](https://github.com/devstermarts/PD-components/blob/main/various/srrmod.pd) repository.
