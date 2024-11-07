@@ -1,4 +1,4 @@
-#N canvas 455 132 823 550 12;
+#N canvas 455 178 823 550 12;
 #X floatatom 30 126 5 0 0 0 - - - 0;
 #X floatatom 110 126 5 0 0 0 - - - 0;
 #X floatatom 191 126 5 0 0 0 - - - 0;
@@ -348,11 +348,11 @@
 #X connect 0 0 1 0;
 #X restore 343 354 pd presets;
 #X text 709 497 Martin Heinze;
-#X text 653 517 Last updated 06.11.24;
-#X text 471 25 PD-SSR is a PD implementation of 'SINUSOIDAL RUN RHYTHM' as described by Steffen Krebber in his research project and book of the same name., f 47;
 #X text 156 25 <- Partials selection;
 #X text 478 326 The implementation works with combination of 2 partials (derived from the Farey sequence of order 8) and 3 partials (coprime triples up to 16) through the selectors on the top \, additionally \, up to 4 partials can be set by using the manual selection option below., f 46;
 #X text 478 426 Oscillator speed can be adjusted. After normalization (0 \, 1) \, the signal can be cross faded between a sinusoid or rectangle envelope applied to a simple white noise generator., f 46;
+#X text 471 25 PD-SRR is a PD implementation of 'SINUSOIDAL RUN RHYTHM' as described by Steffen Krebber in his research project and book of the same name., f 47;
+#X text 653 517 Last updated 07.11.24;
 #X connect 0 0 25 0;
 #X connect 1 0 26 0;
 #X connect 2 0 23 0;
