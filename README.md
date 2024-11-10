@@ -18,4 +18,4 @@
  * Todo: srrmod.pd component use case
 
  ## Other
- A modular component version of this implementation ("srrmod.pd") can be found in the [PD-components](https://github.com/devstermarts/PD-components/blob/main/various/srrmod.pd) repository.
+ The repository also contains a modular component version of this implementation ("srrmod.pd") for integration into larger compositions.
