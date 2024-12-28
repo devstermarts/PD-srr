@@ -1,5 +1,6 @@
 # PD-srr
- PD implementation of 'Sinusoidal Run Rhythm' by Steffen Krebber
+ PD implementation of 'Sinusoidal Run Rhythm' by Steffen Krebber.
+ Read more [here](https://www.martsman.de/sinusoidal-run-rhythm-implementation-in-pure-data/).
 
  ## Sinusoidal Run Rhythm
  > "'sinusoidal run rhythm' proposes a definition of rhythm as a wave. It does not conceive of time as discrete subdivisions, but makes it continuously quantifiable. Concurrently, through the aesthetics of wave additions, it does not present physicality as a merely subjective concept and thus liberates it from mystification."
@@ -15,7 +16,7 @@
 
  ## Observations, open issues and questions:
  * Todo: check lists of coprime tuples and triples for validity
- * Todo: srrmod.pd component use case
 
  ## Other
  The repository also contains a modular component version of this implementation ("srrmod.pd") for integration into larger compositions.
+![Patch view](./assets/srrmod.png)
